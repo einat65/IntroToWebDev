@@ -1,0 +1,133 @@
+body {
+    background-color: #e7dfdd;
+}
+
+.title{
+    font-family: 'Courier New', Courier, monospace
+}
+
+.image{
+    border: solid black 2px;
+    box-shadow: 8px 6px 5px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 8px 6px 5px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 8px 6px 5px -5px rgba(0,0,0,0.75);
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.cell-border{
+    border:1px solid black;
+}
+
+.cell-left{
+    border-left: 1px solid black;
+}
+
+.cell-right{
+    border-bottom: 1px solid black;
+}
+
+.icon-star{
+    width: 1rem;
+}
+
+.kingergarten-row{
+    background-color: antiquewhite;
+}
+
+.school-1-row{
+    background-color: aquamarine;
+}
+
+.school-2-row{
+    background-color: rgb(16, 143, 101);
+}
+
+.row-all{
+    background-color: rgb(58, 61, 216);
+}
+
+
+
+
+table, th, td {
+    border: 1px solid;
+  }
+
+  .intro {
+    background-color: yellow;
+  }
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    size: 50px;cm;
+
+}
+
+
+.pink-border {
+    border: darkorchid;
+
+}
+
+
+
+
+
+
+
+.parent {
+    background-color: aquamarine;
+
+}
+
+.child-one { color: burlywood;
+
+}
+
+.child-two {
+descent-override: ;
+}
+
+.child-three {height: 30px;
+
+}
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(215, 22, 233);
+    overflow: hidden;
+  }
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: end;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(138, 212, 19);
+    color: rgb(182, 141, 141);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #4b3697;
+    color: white;
+  }  
+
+  a :hover color blu
