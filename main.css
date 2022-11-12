@@ -1,0 +1,173 @@
+body {
+    background-color: #e7dfdd;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --primary-color-header-footer: #76b5c5; 
+    --primary-color-sidebar-two: #d9e710;
+    --primary-color-sidebar: #75df6b; 
+    --title-color: #412710;
+}
+
+.dark{
+    --primary-color-header-footer: #01295c; 
+    --primary-color-sidebar-two: #345f30;
+    --primary-color-sidebar: #02471f;
+    --title-color: #e2dfda;
+}
+
+.title{
+    padding-top: 1rem;
+    color: var(--title-color);
+}
+
+
+.div-logo{
+  display: flex;
+}
+
+.logo{
+  width: 8rem;
+}
+
+.user-icon{
+  width: 5rem;
+}
+
+.header {
+
+  height: 20vh;
+  width: 100%;
+  background-color: var(--primary-color-header-footer) ;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.external-icon{
+  width: 1.5rem;
+}
+
+.pageTitle{
+  font-size: 3rem;
+}
+
+.text-welcome{
+
+  font-size: 2rem;
+}
+.main-content{
+
+  width: 100%;
+  display: flex;
+}
+
+.welcome{
+  height:80vh ;
+  text-align: center;
+}
+
+
+.main {
+  width: 70%;
+  height: fit-content;
+  padding-left: 1rem;
+}
+
+.nav-ber {
+  width: 30%;
+  background-color: var(--primary-color-sidebar) ;
+  
+}
+
+.flex-containet{
+
+  height: 80vh;
+  display: flex;
+}
+
+.div-overflow{
+  overflow: scroll;
+  width: 26rem;
+}
+
+.image{
+  width: 16rem;
+}
+
+.footer {
+    text-align: center;
+    bottom: 0rem;
+    height: fit-content;
+    padding: 1rem;
+    background-color: var(--primary-color-header-footer) ;
+}
+
+.nav-item > a{
+  color: var(--title-color);
+  text-decoration: none;
+}
+
+.nav-item{
+  height: 2.5rem;
+  padding-left: 3rem;
+  padding-top: 1.25rem;
+  color: var(--title-color);
+
+}
+
+.nav-item-two{
+  background-color: var(--primary-color-sidebar-two);
+
+}
+
+.nav-header{
+  height: 3rem;
+}
+.email{
+  text-decoration: none;
+  color: var(--title-color) ;
+}
+
+
+.imdb-link:link, .imdb-link:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.imdb-link:hover, .imdb-link:active {
+  background-color: green;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+
+    .page{
+      flex-direction: column;
+    }
+    .nav-ber {
+      width: 100%;
+      background-color: var(--primary-color-sidebar) ;
+      
+    }
+  
+    .main {
+      width: 100%;
+    }
+
+    .container-flex{
+      flex-direction: column;
+      justify-items: center;
+    }
+
+}
+

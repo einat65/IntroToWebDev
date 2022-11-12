@@ -1,104 +1,153 @@
-<html>
-    <head>
-        <title>Einat Cohen</title>
-        <link rel="icon" type="image/x-ico" href="./images/favicon.ico">
+<!DOCTYPE html>
+<html lang="en">
 
-        <link rel="stylesheet" href="./style.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Einat Cohen</title>
+        <link rel="icon" type="image/x-ico" href="./asset/images/favicon.ico">
+        <link rel="stylesheet" href="./main.css?v=1.1.4">
+        
     </head>
 
-    <body>
-        <header> 
+    <body class="dark">
 
-            <!-- Page Title -->
-            <h1 class="title">Einat Cohen</h1>
+            <!-- Header -->
+            <div class="header container-flex">
 
-            <!-- Nav -->
-            <nav>
-                <ul>
-                    <div class="topnav">
-                        <li><a class="movie" href="#movieSection">about the movie</a></li>
-                        <li><a href="#habimaSection">about habima</a> </li>
-                        <li><a href="#foodSection">about food</a> </li>
-                        <li><a href="./schools.html">schools</a> </li>
-                    </div>    
-                </ul>  
-            </nav>
-        </header>
+                <div class="div-logo">
+                    <img src="asset/images/header/web logo.png" alt="logo" class="logo">
+                    <h1 class="title">Header</h1>
+                </div>
 
-        <!-- Movie Section -->
-        <section id="movieSection">
-            <h2 class="title">my favorite movie</h2>
-            
-            <a target="_blank" href="https://www.imdb.com/title/tt0343660/?ref_=nv_sr_srsg_0">link to movie</a>
-            <br>
-            <br>
-            <img class="image" src = "./images/img.jfif" alt="error"/> 
+                <div class="div-user-icon">
+                    <img src="/asset/images/header/user.png" alt="user-icon" class="user-icon">
+                </div>
+                
+            </div>
+
+            <div class="main-content">
+
+                <!-- Side Bar -->
+                <div class="nav-ber">
+                    <div class="nav-item nav-header">Nav</div>
+                    <div class="nav-item nav-item-two"><a href="#movieSection">My Favorite Movie</a></div>
+                    <div class="nav-item"><a href="#habimaSection">A Place I Enjoyed</a></div>
+                    <div class="nav-item nav-item-two"><a target="_blank" href="https://www.imdb.com/title/tt0343660/?ref_=nv_sr_srsg_0">Feedback From <img class="external-icon" src="./asset/images/external link.png"/></a></div>
+                    <div class="nav-item "><a target="_blank" href="./schools.html">My School <img class="external-icon" src="./asset/images/external link.png"/></a></div>
+                    <div class="nav-item nav-item-two"><a target="_blank" href="https://github.com/einat65?tab=repositories">This Project On GitHub <img class="external-icon" src="./asset/images/external link.png"/></a></div>
+                </div>
     
-            <h3 class="title">short description on the movie</h3>
-            <p >
-                Henry, a vet, falls in love with Lucy, who suffers from short-term memory loss.<br/>
-                Lucy can never remember meeting him, so Henry has to romance her afresh each day and pray that she too loves him.
-            </p>
+                <!-- Main -->
+                <div class="main">
+
+                    <section class="welcome">
+                        <p class="pageTitle">Hello!</p>
+                        <p class="text-welcome">welcome to my website</p>
+                        <p class="text-welcome">my name is Einat Cohen. I am a student on the WebDev bootcamp.</p>
+                     
+                        <p class="text-welcome">
+                            these are my three favorite emojis:
+                        </p>
+                       
+                        <div class="text-welcome">
+                            😄  😍  💗 
+                        </div>
+                    </section>
+<!-- 
+                    <--- GitHub section -->
+                    <section id="git"
+                        a href="https://github.com/einat65?tab=repositories"></section>
+                   
+
+                            <!-- Movie Section -->
+        <section id="movieSection" class="flex-containet">
+
+            <div class="movie-left">
+
+                <h2>my favorite movie</h2>
+                <h3>short description on the movie</h3>
+                <p >
+                    Henry, a vet, falls in love with Lucy, who suffers from short-term memory loss.<br/>
+                    Lucy can never remember meeting him, so Henry has to romance her afresh each day and pray that she too loves him.
+                </p>
+                
+                        <h3 class="title">reason I like this movie:</h3>
+                        <p>its a comedy and also romantic movie. how can you not love it?? also Adam Sendler is a great actor.</p>
+                
+                        <h3 class="title">A quote from the movie</h3>
+                        <p>"I am sorry, who are you?"</p>
+                        
+            </div>
+
+            <div class="movie-right">
     
-            <h3 class="title">reason I like this movie:</h3>
-            <p>its a comedy and also romantic movie. how can you not love it?? also Adam Sendler is a great actor.</p>
+                <img class="image" src = "./asset/images/img.jfif" alt="error"/> 
+                <br/>
+                <a class="imdb-link" target="_blank" href="https://www.imdb.com/title/tt0343660/?ref_=nv_sr_srsg_0">link to movie at IMDB</a>
+              
+
+            </div>
     
-            <h3 class="title">A quote from the movie</h3>
-            <p>"I am sorry, who are you?"</p>
         </section>
 
-        <br/>
-        <br/>
-
-        <!-- Habima Section -->
-        <section id="habimaSection">
-            <h2 class="title">Habima- a place I enjoyed visiting</h2>
-    
-            <p>
-                In 1958 the Israeli government led by David Ben-Gurion declared Habima to be Israel’s national theatre.<br/>
-                The same year, Habima was awarded the Israel Prize for its significant contribution to Israeli culture and society.<br/> 
-                From Habima’s beginnings in Moscow as a professional Hebrew theatre, to its immigration to the land of Israel, to the construction of its theatre hall<br/>
-                in Tel Aviv and its establishment as Israel’s national theatre: this is the story of how the vision of a small group of Jews who dreamed of acting in the Hebrew<br/>
-                language turned into Habima Theatre - the National Theatre of Israel.
-            </p>
-    
             
-            <h3 class="title">whay I like habima?</h3>
-            <p>
-                I like habima because I like going to the teather. its remaind me movie but evan better! and it's near by house- 20 minutes driving.<br/>
-                also it's a lovely place to sit there with alot of flowers and coffe shop
-            </p>
-          
-            <div>
-                <strong><a target="_blank" href="https://www.google.com/maps/search/habima+theater/@32.072605,34.7814664,17z/data=!3m1!4b1">link to Habima on Google Maps</a></strong>
+                    <!-- Habima Section -->
+                    <section id="habimaSection" class="flex-containet">
+                        <div class="habima-left">
+
+                            <h2>Habima- a place I enjoyed visiting</h2>
+                    
+                            <p>
+                                In 1958 the Israeli government led by David Ben-Gurion declared Habima to be Israel’s national theatre.<br/>
+                                The same year, Habima was awarded the Israel Prize for its significant contribution to Israeli culture and society.<br/> 
+                                From Habima’s beginnings in Moscow as a professional Hebrew theatre, to its immigration to the land of Israel, to the construction of its theatre hall<br/>
+                                in Tel Aviv and its establishment as Israel’s national theatre: this is the story of how the vision of a small group of Jews who dreamed of acting in the Hebrew<br/>
+                                language turned into Habima Theatre - the National Theatre of Israel.
+                            </p>
+                    
+                            
+                            <h3 class="title">whay I like habima?</h3>
+                            <p>
+                                I like habima because I like going to the teather. its remaind me movie but evan better! and it's near by house- 20 minutes driving.<br/>
+                                also it's a lovely place to sit there with alot of flowers and coffe shop
+                            </p>
+                            
+                            <div>
+                                <strong><a target="_blank" href="https://www.google.com/maps/search/habima+theater/@32.072605,34.7814664,17z/data=!3m1!4b1">link to Habima on Google Maps</a></strong>
+                            </div>
+                        </div>
+                        <div class="habima-left div-overflow">
+
+                            <img class="image" src="./asset/images/jjj.jpg" alt="error"/>
+                            <img class="image" src="./asset/images/habima2.jpg" alt="error"/>
+                            <img class="image" src="./asset/images/habima3.jpg" alt="error"/>
+                            <img class="image" src="./asset/images/jjj.jpg" alt="error"/>
+                            <img class="image" src="./asset/images/habima2.jpg" alt="error"/>
+                            <img class="image" src="./asset/images/habima3.jpg" alt="error"/>
+                            <img class="image" src="./asset/images/jjj.jpg" alt="error"/>
+                            <img class="image" src="./asset/images/habima2.jpg" alt="error"/>
+                            <img class="image" src="./asset/images/habima3.jpg" alt="error"/>
+                        </div>
+                        
+                        
+            
+                    </section>
+
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <div class="footer">
+                <span class="title">Einat Cohen</span>
+                <br/>
+                <a class="email" href= "mailto: einat65@gmail.com" >einat65@gmail.com </a>
             </div>
             
-            <img class="image" src="./images/jjj.jpg" alt="error"/>
-            <img class="image" src="./images/habima2.jpg" alt="error"/>
-            <img class="image" src="./images/habima3.jpg" alt="error"/>
             
-
-        </section>
-
-        <br/>
-        <br/>
-
-        <!-- Food Section -->
-        <section id="foodSection">
-            <h2 class="title"> my favorite Food</h2>
-            <ul>
-                <li>pizza</li>
-                <li>ice cream</li>
-                <li>bolonez</li>
-                <li>melon</li>
-                <li>soup</li>
-                <li>brownie cake</li>
-                <li>salad</li>
-            </ul>
-        </section>
+        
 
     </body>
-
-
 
 </html>
